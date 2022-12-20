@@ -17,7 +17,7 @@ func main() {
 
 	if err := godotenv.Load(); err != nil {
 		// handle error
-		panic(err)
+		log.Printf("Error loading .env file: %s. Continue the process...", err)
 	}
 
 	// create LINE bot client
