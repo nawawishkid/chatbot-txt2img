@@ -1,0 +1,6 @@
+/public
+*.env
+.env
+*.md
+.gitignore
+/.git
